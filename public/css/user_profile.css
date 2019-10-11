@@ -1,0 +1,77 @@
+.profile-label{
+    margin: 20px;
+}
+
+.personal-information-container{
+    height: 250px;
+}
+
+.profile-avatar{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-avatar-image{
+    border: solid 1px burlywood;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.self-introduction-container{
+    width: 1000px;
+    height: 100px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border: 1px;
+}
+
+.profile-albums-container{
+    /* width: 1500px; */
+    width: 80%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.profile-album-container{
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    display: block;
+    float: left;
+    border: solid 1px black;
+}
+
+.profile-photo-container-width{
+    /* display: flex;
+    align-items: center; */
+    width: 74px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    float: left;
+    border: solid 1px white;
+}
+
+.profile-photo-container-height{
+    /* display: flex;
+    align-items: center; */
+    width: 74px;
+    height: 74px;
+    float: left;
+    border: solid 1px white;
+    text-align: center;
+}
+
+
+.profile-photo-width{
+    width: 100%;
+    max-height: 100%;
+}
+
+.profile-photo-height{
+    height: 100%;
+    max-width: 100%;
+}

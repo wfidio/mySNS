@@ -1,0 +1,202 @@
+body
+{
+    width: 1903px;
+    height: 1393px;
+}
+
+.footer
+{
+    /* min-height: 20px; */
+    background-color: rgb(156, 177, 113);
+    padding-left: 20px;
+}
+
+.contact
+{
+    height: 100%;
+    background-color: coral;
+    text-align: center;
+    overflow-y: scroll;
+    background-image: url('/image/contact_background.jpg');
+}
+
+.content
+{
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url('/image/background.jpg');
+    background-repeat: repeat;
+    overflow-y: scroll;
+}
+
+.avator_img
+{
+    border-radius: 50%;
+    border: solid 1px burlywood;
+    width: 100%;
+    height: 100%;
+} 
+
+.header_avator_container
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+}
+
+.photos-list-container{
+    background-color: gainsboro;
+    width: 100%;
+    height: 600px;
+}
+
+.photo
+{
+    /* width: 100%;  */
+    height: 100%;
+}
+
+.photo-container
+{
+    /* width: 128px; */
+    height: 128px;
+    margin: 5px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.card-image-list
+{
+    width: 100%;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+.card-header-name
+{
+    float: left;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.album_card
+{
+    width: 1000px;
+    margin: 20px;
+}
+
+.card-header-more
+{
+    display: block;
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.image-container-width
+{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+    /* text-align: center; */
+}
+
+
+.image-container-height
+{
+    /* display: flex;
+    align-items: center; */
+    background-color:black;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.card-album-photo-width
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    /* display: inline; */
+}
+
+.card-album-photo-height
+{
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    /* display: inline; */
+}
+
+.contact_list_header{
+    text-align: right;
+    border-bottom: solid 1px saddlebrown; 
+    cursor: pointer;
+}
+
+.contact-dropdown-menu{
+    background-color: transparent;
+    width: 95%;
+    margin: 4px;
+}
+
+.contact_information{
+    text-align: left;
+    color: black;
+}
+
+.contact_information_introduction{
+    font-size: 10px;
+}
+
+.contact-dropdown-item{
+    height: 80px;
+    padding: 5px;
+    border: 1px solid seashell;
+    width: 100%;
+    display: inline-block;
+}
+
+.contact-dropdown-item:hover{
+    background-color: aliceblue;
+}
+
+.contact_avatar_container{
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 5px 5px;
+    width: 30%;
+}
+
+.contact_avatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:solid 1px sandybrown;
+}
+
+.contact_information{
+    display: block;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#more_user{
+    background-color: burlywood;
+    cursor: pointer;
+}
